@@ -21,6 +21,7 @@ before_install:
 install:
   - pwd
   - npm install
+  - $(npm bin)/cypress install
 
 script:
   - CYPRESS_baseUrl=https://www.paraplegie.ch $(npm bin)/cypress run
