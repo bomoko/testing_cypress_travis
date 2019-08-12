@@ -28,4 +28,4 @@ install:
   - npm install
 
 script:
-  - CYPRESS_baseUrl=https://www.paraplegie.ch node_modules/.bin/cypress run
+  - CYPRESS_baseUrl=https://www.paraplegie.ch $(npm bin)/cypress run
