@@ -123,17 +123,17 @@ context('Support Us Page - CTAS', () => {
       .should('have.class', 'Button')
   })
 
-  it('cy.get() - Mitglied werden CTA with link to /node/460', () => {
-    cy.get('.MainNav--right')
-      .find('a.Button').last()
-      .should('have.attr', 'href', '/de/node/460')
-  })
+  // it('cy.get() - Mitglied werden CTA with link to /node/460', () => {
+  //   cy.get('.MainNav--right')
+  //     .find('a.Button').last()
+  //     .should('have.attr', 'href', '/de/node/460')
+  // })
 
-  it('cy.get() - SPENDEN CTA with link to /node/717', () => {
-    cy.get('.MainNav--right')
-      .find('a.Button').first()
-      .should('have.attr', 'href', '/de/node/717')
-  })
+  // it('cy.get() - SPENDEN CTA with link to /node/717', () => {
+  //   cy.get('.MainNav--right')
+  //     .find('a.Button').first()
+  //     .should('have.attr', 'href', '/de/node/717')
+  // })
 
   it('cy.get() - Scrolls Sticky header into view and finds CTS buttons', () => {
     cy.get('.HeaderSticky--right').scrollIntoView() // Scrolls 'footer' into view
@@ -146,16 +146,16 @@ context('Support Us Page - CTAS', () => {
       .should('have.class', 'Button')
   })
 
-  it('cy.get() - Mitglied werden CTA with link to /node/460', () => {
-    cy.get('.HeaderSticky--right')
-      .find('a.Button').last()
-      .should('have.attr', 'href', '/de/node/460')
-  })
+  // it('cy.get() - Mitglied werden CTA with link to /node/460', () => {
+  //   cy.get('.HeaderSticky--right')
+  //     .find('a.Button').last()
+  //     .should('have.attr', 'href', '/de/node/460')
+  // })
 
-  it('cy.get() - SPENDEN CTA with link to /node/717', () => {
-    cy.get('.HeaderSticky--right')
-      .find('a.Button').first()
-      .should('have.attr', 'href', '/de/node/717')
-  })
+  // it('cy.get() - SPENDEN CTA with link to /node/717', () => {
+  //   cy.get('.HeaderSticky--right')
+  //     .find('a.Button').first()
+  //     .should('have.attr', 'href', '/de/node/717')
+  // })
 
 })
