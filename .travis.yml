@@ -26,3 +26,6 @@ before_install:
 install:
   - pwd
   - npm install
+
+script:
+  - CYPRESS_baseUrl=https://www.paraplegie.ch node_modules/.bin/cypress run
