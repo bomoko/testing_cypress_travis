@@ -22,3 +22,7 @@ cache:
 
 before_install:
   - cd ./frontend
+
+install:
+  - pwd
+  - npm install
